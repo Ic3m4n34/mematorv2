@@ -1,4 +1,5 @@
 # mematorv2
+[![Build Status](https://travis-ci.com/Ic3m4n34/mematorv2.svg?branch=master)](https://travis-ci.com/Ic3m4n34/mematorv2)
 
 ## Project setup
 ```

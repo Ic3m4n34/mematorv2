@@ -1,5 +1,6 @@
 # mematorv2
 [![Build Status](https://travis-ci.com/Ic3m4n34/mematorv2.svg?branch=master)](https://travis-ci.com/Ic3m4n34/mematorv2)
+[![Coverage Status](https://coveralls.io/repos/github/Ic3m4n34/mematorv2/badge.svg?branch=master)](https://coveralls.io/github/Ic3m4n34/mematorv2?branch=master)
 
 ## Project setup
 ```

@@ -25,7 +25,11 @@ describe('SearchInput', () => {
     expect(wrapper.vm.searchTerm === 'images');
   });
 
-  it('Button has text', () => {});
+  it('Button has text', () => {
+    const button = wrapper.find('.search-input__button');
+
+    expect(button.text()).toBe('Search Images');
+  });
 
   it('button triggers search', () => {
     const stub = jest.fn();
@@ -35,11 +39,4 @@ describe('SearchInput', () => {
     searchButton.trigger('click');
     expect(wrapper.vm.fetchImages).toHaveBeenCalled();
   });
-
-  /* it('loads Images when function is triggered', () => {
-    const searchButton = wrapper.find('.search-input__button');
-    searchButton.trigger('click');
-
-    expect(wrapper.vm.images).toBeInstanceOf(Array);
-  }); */
 });

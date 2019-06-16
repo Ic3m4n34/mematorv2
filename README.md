@@ -31,3 +31,8 @@ npm run test:unit
 ```
 npm run test:e2e
 ```
+
+
+# ImageList
+* [ ] show Loader when Images are loaded
+* [ ]
